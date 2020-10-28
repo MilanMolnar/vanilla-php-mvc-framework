@@ -1,0 +1,17 @@
+{
+    "name": "nevie/vanilla-php-mvc-framework",
+    "description": "This is a simple practice framework for php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MilanMolnar",
+            "email": "54602124+MilanMolnar@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
