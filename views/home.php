@@ -1,2 +1,1 @@
-<h1>Home view works</h1>
-
+<h1> Hello <?php echo $name ?></h1>
