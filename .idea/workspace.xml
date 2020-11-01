@@ -11,16 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6f612f6-3464-4e28-8f6d-c55a118e9c21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/SiteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/_404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/layouts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,6 +49,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nevie\Desktop\php-mvc-framework\vanilla-php-mvc-framework\views\layouts" />
+      <recent name="C:\Users\nevie\Desktop\php-mvc-framework\vanilla-php-mvc-framework\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nevie\Desktop\php-mvc-framework\vanilla-php-mvc-framework\views" />
       <recent name="C:\Users\nevie\Desktop\php-mvc-framework\vanilla-php-mvc-framework\public" />
@@ -64,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603880924250</updated>
-      <workItem from="1603880925410" duration="27848000" />
+      <workItem from="1603880925410" duration="30948000" />
     </task>
     <servers />
   </component>
@@ -83,10 +85,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1603886360518">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604257218821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603886360518" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604257218821" />
     <state x="381" y="86" key="NewPhpClassDialog" timestamp="1604236452637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
