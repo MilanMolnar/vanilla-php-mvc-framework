@@ -3,6 +3,9 @@
 namespace app\core;
 
 /**
+ * This class is responsible for routing the requests and rendering the respected views or content,
+ * olso has helper functions for the layouts.
+ *
  * Class Router
  * @package app\core
  */
@@ -40,7 +43,6 @@ class Router
         $path = $this->request->getPath();
         $method = $this->request->method();
         $callback = $this->routes[$method][$path] ?? false;
-
         if ($callback === false){
             $this->response->setStatusCode(404);
             return $this->renderView("_404");
@@ -88,4 +90,6 @@ class Router
         include_once Application::$ROOT_DIR."/views/$view.php";
         return ob_get_clean();
     }
+
+
 }

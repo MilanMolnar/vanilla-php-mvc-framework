@@ -3,7 +3,7 @@
 <form action="" method="post">
     <div class="form-group">
         <label for="name">Name</label>
-        <input placeholder="E.g.: John Doe" type="text" name="name" class="form-control">
+        <input placeholder="E.g.: John Doe" type="text" name="fullName" class="form-control">
     </div>
     <div class="form-group">
         <label for="username">Username</label>

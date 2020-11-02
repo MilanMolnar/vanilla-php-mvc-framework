@@ -3,6 +3,8 @@
 namespace app\core;
 
 /**
+ * Handles the core application methods.
+ *
  * Class Application
  * @package app\core
  */

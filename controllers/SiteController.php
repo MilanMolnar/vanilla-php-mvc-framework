@@ -6,7 +6,11 @@ use app\core\Controller;
 use app\core\Request;
 
 /**
+ *
+ *
  * Class SiteController
+ * @package app\controllers
+ *
  */
 
 

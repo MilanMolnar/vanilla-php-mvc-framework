@@ -3,6 +3,8 @@
 
 namespace app\core;
 /**
+ * Base controller, every controller defined in this framework should extend this class.
+ *
  * Class Controller
  * @package app\core
  */

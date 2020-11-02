@@ -4,6 +4,8 @@
 namespace app\core;
 
 /**
+ * This class implements the request handaling helper functions
+ *
  * Class Request
  * @package app\core
  */
