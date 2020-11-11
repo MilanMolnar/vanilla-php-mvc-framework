@@ -3,7 +3,11 @@
 <form action="" method="post">
     <div class="form-group">
         <label for="name">Name</label>
-        <input placeholder="E.g.: John Doe" type="text" name="fullName" class="form-control">
+        <input placeholder="E.g.: John Doe" type="text" name="fullName" value="<?php echo $model->fullName ?>"
+               class="form-control<?php echo $model->hasError('fullName') ? ' is-invalid' : '' ?>">
+        <div class="invalid-feedback">
+            <?php echo $model->getFirstError("fullName") ?>
+        </div>
     </div>
     <div class="form-group">
         <label for="username">Username</label>
